@@ -1,6 +1,6 @@
 
 import { useEffect } from 'react';
-import { Bank, CreditCard, PieChart, Briefcase, Shield, Wallet } from 'lucide-react';
+import { Building, CreditCard, PieChart, Briefcase, Shield, Wallet } from 'lucide-react';
 import { animateOnScroll } from "@/utils/animations";
 import { cn } from "@/lib/utils";
 
@@ -42,7 +42,7 @@ const Services = () => {
 
   const services = [
     {
-      icon: Bank,
+      icon: Building,
       title: "Banking Systems",
       description: "Custom core banking solutions, mobile banking apps, and digital transformation for financial institutions.",
     },
